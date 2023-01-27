@@ -1,1 +1,70 @@
+ASSIGNMENT:1
+(Module 1: SDLC)
+
+1) What is software? 
+What is software engineering? 
+•	Software is a set of instructions, data or programs used to operate computers and execute specific tasks.
+•	Software engineering is defined as a process of analyzing user requirements and then designing, building, and testing software application which will satisfy those requirements.
+
+
+2) Explain types of software?
+❖ System Software: System software provides the basic functions for computer usage and helps run the computer hardware and system. 
+
+❖ Programming Software: Programming is the process of designing, writing, testing, debugging, and maintaining the source code of computer programs. This source code is written in a programming language. The purpose of programming is to create a program that exhibits a certain desired behaviour. 
+
+❖ Application Software : Application software is the general designation of computer programs for performing user tasks.
+
+Types of Application Software: 
+❖ Mobile App: Application that runs on mobile platform. Example: Instagram app. 
+❖ Desktop App: Application that runs stand-alone in a desktop or laptop computer. Example: Microsoft Word, Web Browser. 
+❖ Web App: Apps that run on a web browser (Mozilla, Google Chrome etc.) Example: www.facebook.com, www.google.com
+
+
+3) What is SDLC? 
+Explain each phase of SDLC?
+•	Software Development Life Cycle (SDLC) is a process used by the software industry to design, develop and test high quality software.
+•	The Software Development Life Cycle (SDLC) refers to a methodology with clearly defined processes for creating high-quality software.
+ 
+The Software Development Life Cycle (SDLC) refers to a methodology with clearly defined processes for creating high-quality software. in detail, the SDLC methodology focuses on the following phases of software development:
+•	Phase 1: Requirement collection and analysis
+•	Phase 2: Feasibility study
+•	Phase 3: Design
+•	Phase 4: Coding
+•	Phase 5: Testing
+•	Phase 6: Installation/Deployment
+•	Phase 7: Maintenance
+
+Phase 1: Requirement collection and analysis
+The requirement is the first stage in the SDLC process. It is conducted by the senior team members with inputs from all the stakeholders and domain experts in the industry. Planning for the quality assurance requirements and recognition of the risks involved is also done at this stage.
+
+Phase 2: Feasibility study
+Once the requirement analysis phase is completed the next SDLC step is to define and document software needs. This process conducted with the help of ‘Software Requirement Specification’ document also known as ‘SRS’ document. It includes everything which should be designed and developed during the project life cycle.
+
+Phase 3: Design
+In this third phase, the system and software design documents are prepared as per the requirement specification document. This helps define overall system architecture.
+This design phase serves as input for the next phase of the model.
+
+Phase 4: Coding
+Once the system design phase is over, the next phase is coding. In this phase, developers start build the entire system by writing code using the chosen programming language. In the coding phase, tasks are divided into units or modules and assigned to the various developers. It is the longest phase of the Software Development Life Cycle process.
+In this phase, Developer needs to follow certain predefined coding guidelines. They also need to use programming tools like compiler, interpreters, debugger to generate and implement the code.
+
+Phase 5: Testing
+Once the software is complete, and it is deployed in the testing environment. The testing team starts testing the functionality of the entire system. This is done to verify that the entire application works according to the customer requirement.
+
+Phase 6: Installation/Deployment
+Once the software testing phase is over and no bugs or errors left in the system then the final deployment process starts. Based on the feedback given by the project manager, the final software is released and checked for deployment issues if any.
+
+Phase 7: Maintenance
+Once the system is deployed, and customers start using the developed system, following 3 activities occur
+•	Bug fixing – bugs are reported because of some scenarios which are not tested at all
+•	Upgrade – Upgrading the application to the newer versions of the Software
+•	Enhancement – Adding some new features into the existing software
+
+The main focus of this SDLC phase is to ensure that needs continue to be met and that the system continues to perform as per the specification mentioned in the first phase.
+
+
+
+
+
+
 
