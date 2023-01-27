@@ -1,0 +1,25 @@
+#include <stdio.h>
+main() 
+{
+    int a=10;
+    printf("value of a is : %d",a);
+}
+value of a is : 10
+
+
+#include <stdio.h>
+main() 
+{
+    char b='1';
+    printf("value of b is : %c",b);
+}
+value of b is : 1
+
+
+#include <stdio.h>
+main() 
+{
+    float c=5.565;
+    printf("value of c is : %f",c);
+}
+value of c is : 5.565000
