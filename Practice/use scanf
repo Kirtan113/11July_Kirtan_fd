@@ -1,0 +1,74 @@
+#include <stdio.h>
+main() 
+{
+    int a;
+    printf("Enter value :");
+    scanf("%d",&a);
+    printf("your value is :%d",a);
+}
+Enter value :1500
+your value is :1500
+
+
+#include <stdio.h>
+main() 
+{
+    int a,b,c;
+    printf("Enter value a,b and c :");
+    scanf("%d %d %d",&a,&b,&c);
+    printf("value of a is :%d\n",a);
+    printf("value of b is :%d\n",b);
+    printf("value of c is :%d\n",c);
+}
+Enter value a,b and c :1
+11
+111
+value of a is :1
+value of b is :11
+value of c is :111
+
+
+#include<stdio.h>
+main()
+{
+    char x ='12';
+    printf("value of x is :%c",x);
+}
+value of x is :2
+
+
+#include <stdio.h>
+main() 
+{
+    char a,b;
+    printf("Enter value a and b :");
+    scanf("%c %c",&a,&b);
+    printf("value of a is :%c\n",a);
+    printf("value of b is :%c\n",b);
+}
+Enter value a and b :1
+12
+value of a is :1
+value of b is :1
+
+
+#include <stdio.h>
+main() 
+{
+    int a;
+    char b;
+    float c;
+    printf("Enter value of integer a ,b and c :");
+    scanf("%d %c %f",&a,&b,&c);
+    printf("value of a is :%d\n",a);
+    printf("value of b is :%c\n",b);
+    printf("value of c is :%f\n",c);
+}
+Enter value of integer a ,b and c :15
+5
+5.5656
+value of a is :15
+value of b is :5
+value of c is :5.565600
+
+
