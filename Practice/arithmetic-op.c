@@ -1,6 +1,6 @@
 //Arithmetic operator
 #include<stdio.h>
-main()
+void main()
 {
     int a,b;
     printf("Enter value of a and b:\n");

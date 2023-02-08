@@ -1,6 +1,6 @@
 //Assignment  operator
 #include<stdio.h>
-main()
+void main()
 {
     float a,b;
     printf("Enter value of a and b:\n");
