@@ -1,0 +1,18 @@
+Loop is used to execute line of code multiple time.
+
+->By default loop excute infinite time.
+->Starting index 0;
+
+1.Entery Controll loop:-
+    ->Cntroll your entery, if your condition is false you can't enter
+
+    Type:
+    1.While Loop
+    2.For Loop
+
+2.Exit Controll loop:-
+    ->Controll your exit, if your condition is false you can't exit
+    ->In this type you can enter easily.
+    ->That min your loop by default execute one time
+    Type:
+    1.Do-While loop
