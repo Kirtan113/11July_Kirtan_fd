@@ -1,0 +1,6 @@
+                In that class          Inherited Class            Main-Function
+Public:         Yes                     Yes                         Yes
+Protected:      Yes                     Yes                         No
+Private:        Yes                     No                          No
+
+->Private default. 
