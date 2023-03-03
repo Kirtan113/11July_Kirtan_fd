@@ -1,0 +1,29 @@
+What is the difference between OOP and POP? 
+            
+OOP:                                      
+1.OOP-->Object Oriented Programming.
+2.Bottom up approach in program design. 
+3.Large programs are divided into classes and
+  objects.
+4.Adding of data and functions is easy.
+5.We can use namespace directly.
+  Ex: using namespace std;
+6.Concepts like inheritance polymorphism,
+  data encapsulation, abstraction, access
+  specifiers are available and can be used
+  easily.
+7.Ex: C++, Java, C# etc....
+            
+POP:
+1.POP-->Procedure Oriented Programming.
+2.Top down approach in program design.
+3.Large programs are divided into smaller
+  programs known as functions.
+4.Adding of data and functions is
+  difficult.
+5.We cannot declare namespace directly.
+6.Concepts like inheritance,
+  polymorphism, data encapsulation,
+  abstraction, access specifiers are not
+  available.
+7.Ex: C, Fortran, pascal, etc.....
