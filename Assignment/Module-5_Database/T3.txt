@@ -1,0 +1,30 @@
+a) Get First_Name from employee table using Tom name “Employee Name”.
+->SELECT First_Name FROM t3emp WHERE First_Name = 'Tom';
+
+b) Get FIRST_NAME, Joining Date, and Salary from employee table. 
+->SELECT First_Name,Joining_date,Salary FROM t3emp;
+
+c) Get all employee details from the employee table order by First_Name 
+Ascending and Salary descending?
+->SELECT * FROM t3emp ORDER by First_Name ASC , Salary DESC;
+
+d) Get employee details from employee table whose first name contains ‘J’.
+->SELECT * FROM t3emp WHERE First_Name LIKE '%j%';
+
+e) Get department wise maximum salary from employee table order by salary 
+ascending?
+->SELECT Department , MAX(Salary) AS Salary FROM t3emp
+GROUP by Department ORDER BY Salary ASC;
+
+f) Select first_name, incentive amount from employee and incentives table for 
+those employees who have incentives and incentive amount greater than 3000 
+->
+
+g) Create After Insert trigger on Employee table which insert records in view 
+table 
+->DELIMITER $$
+CREATE TRIGGER `insert_emp` AFTER INSERT ON `t3emp`
+FOR EACH ROW
+BEGIN 
+INSERT INTO `t3emp` SET `Salary` = `Edit_salary`;
+END$$

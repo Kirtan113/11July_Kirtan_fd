@@ -1,0 +1,21 @@
+Retrieve the below data from above table 
+a) All orders for more than $1000. 
+->
+
+b) Names and cities of all salespeople in London with commission above 0.12 
+->SELECT Sname,City FROM `t4salesperson` 
+WHERE City = `London` AND Comm > '.12';
+
+c) All salespeople either in Barcelona or in London
+->SELECT * from `t4salesperson`
+WHERE City = 'Barcelona' OR City = 'London';
+
+d) All salespeople with commission between 0.10 and 0.12. (Boundary values 
+should be excluded). 
+->SELECT * FROM `t4salesperson` 
+WHERE `Comm` > '.10' AND `Comm` < '.12';
+
+e) All customers excluding those with rating <= 100 unless they are located in 
+Rome
+->SELECT * FROM `t4customer`
+WHERE Rating <= 100 OR `City` = 'Roe';

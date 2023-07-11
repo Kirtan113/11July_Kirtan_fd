@@ -1,0 +1,181 @@
+Que:1 -> What do you understand By Database?
+Ans:  -> A database is an organized collection of data that can be easily accessed, managed, and updated.
+-> It can be thought of as a digital filing system that stores information in a structured and searchable format.
+-> A database typically consists of one or more tables, each of which contains multiple rows of data with different attributes or columns. 
+-> Each row represents a specific instance or record, while each column represents a different type of information, such as names, dates, or                                     numbers.
+-> Databases are used in a wide range of applications and industries to store and manage data, including businesses, government agencies, healthcare organizations, and educational institutions.
+-> They are essential for many types of software applications, such as content management systems, e-commerce platforms, and customer relationship management systems.
+
+
+
+Que:2 -> What is Normalization?
+Ans:->Normalization is the process of organizing data in a database so that it is structured in a way that reduces redundancy and dependency among the data.
+->This is done by breaking down large tables into smaller, more manageable tables, and creating relationships between them.
+1) First Normal Form (1NF): This requires that each column in a table contains only atomic values, meaning that it cannot contain multiple values or sets of values.
+EX::::   EMP_ID 	EMP_NAME 	EMP_PHONE   EMP_STATE
+		14 		John 		7272826385 	  UP
+		14 		John 		9064738238 	  UP
+		20 		Harry 		8574783832 	  Bihar
+		12 		Sam 		7390372389 	  Punjab
+		12 		Sam 		8589830302 	  Punjab
+
+2) Second Normal Form (2NF): This requires that each non-key column in a table is dependent on the entire primary key, rather than just part of it.
+EX:::: TEACHER table
+	TEACHER_ID 		SUBJECT TEACHER_	AGE
+		25 			Chemistry 			30
+		25 			Biology 				30
+		47 			English 				35
+		83 			Math 				38
+		83 			Computer 			3
+
+::::TEACHER_DETAIL table:
+	TEACHER_ID TEACHER_	AGE
+		25 					30
+		47 					35
+		83 					38
+
+:::TEACHER_SUBJECT table:
+	TEACHER_ID 		SUBJECT
+		25 			Chemistry
+		25 			Biology
+		47 			English
+		83 			Math
+		83 			Computer
+
+3) Third Normal Form (3NF): This requires that each non-key column in a table is dependent only on the primary key and not on any other non-key columns in the same table.
+Ex::::EMPLOYEE_DETAIL table:
+	EMP_ID 		EMP_NAME 	EMP_ZIP 	EMP_STATE 	EMP_CITY
+	222 			Harry 		201010 		UP 			Noida
+	333			Stephan 		02228 		US 			Boston
+	444 			Lan 			60007 		US 			Chicago
+	555			Katharine 	06389 		UK 			Norwich
+	666 			John 		462007 		MP 			Bhopal
+
+:::EMPLOYEE table:
+	EMP_ID 		EMP_NAME 		EMP_ZIP
+	222 			Harry 			201010
+	333 			Stephan 			02228
+	444 			Lan 				60007
+	555			Katharine 		06389
+	666 			John 			462007
+
+
+:::EMPLOYEE_ZIP table:
+	EMP_ZIP 	EMP_STATE 		EMP_CITY
+	201010		UP 				Noida
+	02228		US 				Boston
+	60007		US 				Chicago
+	06389 		UK 				Norwich
+	462007 		MP 				Bhopal
+
+
+
+Que:3 -> What is Difference between DBMS and RDBMS? 
+Ans:-> DBMS (Database Management System) and RDBMS (Relational Database Management System) are both software systems that are used to manage databases.
+-> The main difference between DBMS and RDBMS is that RDBMS is specifically designed to manage structured data using the relational model, while DBMS can manage any type of data. RDBMS also provides greater data integrity and uses SQL as its primary query language.
+
+
+
+Que:4 -> What is MF Cod Rule of RDBMS Systems?
+Ans:->1) Reflexive Rule:
+-> if Y is a subset of X, then X determines Y. X → Y 
+
+2) Augmentation Rule:
+-> If X → Y then XZ → YZ 
+
+3. Transitive Rule:
+-> If X → Y and Y → Z then X → Z 
+
+4. Union Rule:
+-> If X → Y and X → Z then X → YZ 
+
+5. Decomposition Rule:
+-> If X → YZ then X → Y and X → Z 
+
+6. Pseudo transitive Rule:
+-> If X → Y and YZ → W then XZ → W 
+
+
+
+Que:5 -> What do you understand By Data Redundancy?
+Ans:->In DBMS, when the same data is stored in different tables, it causes data redundancy.
+->Data redundancy refers to the situation in which the same data is repeated or duplicated multiple times within a database or information system. 
+---> Advantages:
+-> Provides Data Security:-Data redundancy can enhance data security as it is difficult for cyber attackers to attack data that are in different locations.
+-> Provides Data Reliability:- Reliable data improves accuracy because organizations can check and confirm whether data is correct.
+-> Create Data Backup:-Data redundancy helps in backing up the data.
+
+--->Disadvantages:
+-> Data corruption:- Redundant data leads to high chances of data corruption.
+-> Wastage of storage:- Redundant data requires more space, leading to a need for more storage space.
+-> High cost:- Large storage is required to store and maintain redundant data, which is costly.
+
+
+
+Que:6 -> What is DDL Interpreter?
+Ans:-> A DDL (Data Definition Language) interpreter is a component of a database management system (DBMS) that is responsible for executing commands that define the structure and organization of a database.
+-> CREATE TABLE: creates a new table in the database
+-> ALTER TABLE: modifies the structure of an existing table
+-> DROP TABLE: deletes a table from the database
+-> The DDL interpreter is a critical component of a DBMS that enables users to define and modify the structure of a database.
+
+
+
+Que:7 -> What is DML Compiler in SQL?
+Ans:-> A DML (Data Manipulation Language) compiler is a component of a database management system (DBMS) that is responsible for executing commands that manipulate the data stored in a database.
+-> SELECT: retrieves data from one or more tables in the database
+-> INSERT: inserts new data into a table
+-> UPDATE: modifies existing data in a table
+-> DELETE: removes data from a table
+-> The DML compiler is a critical component of a DBMS that enables users to manipulate the data stored in a database using DML statements such as SELECT, INSERT, UPDATE, and DELETE.
+
+
+
+Que:8 -> What is SQL Key Constraints writing an Example of SQL Key Constraints?
+Ans:-> There are Many types of key constraints in SQL, including primary keys, foreign keys, and unique keys.
+---> Primary Key:
+-> A primary key is a column of table which uniquely identifies each tuple (row) inthat 
+table.
+->Only one primary key is allowed to use in a table.
+->The primary key does not accept the any duplicate and NULL values.
+->A primary key of one table can be referenced by foreign key of another table.
+
+--->Unique Key:
+ ->Unique key constraints also identifies an individual table uniquely in a relation or table.
+->A table can have more than one unique key unlike primary key.
+ ->Unique key constraints can accept only one NULL value for column.
+ ->Unique constraints are also referenced by the foreign key of another table.
+
+--->Foreign Key:
+->When, "one" table's primary key field is added to a related "many" table in order 
+to create the common field which relates the two tables, it is called a foreign key 
+in the "many" table.
+
+
+
+Que:9 -> What is save Point? How to create a save Point write a Query?
+Ans:->Savepoint is a command in SQL that is used with the rollback command.
+->It is a command in Transaction Control Language that is used to mark the transaction in a table.
+--->To create a savepoint in SQL, you can use the SAVEPOINT command.
+Ex:::SAVEPOINT my_savepoint;
+
+->This creates a savepoint with the name my_savepoint.
+->If you decide that you want to roll back to the savepoint, you can use the ROLLBACK TO SAVEPOINT command .
+Ex:::ROLLBACK TO SAVEPOINT my_savepoint;
+
+->If you want to undo all changes made within the transaction, including changes made before the savepoint, you can use the ROLLBACK command.
+Ex:::ROLLBACK;
+
+
+
+Que:10 -> What is trigger and how to create a Trigger in SQL?
+Ans:->In SQL, a trigger is a set of instructions that are automatically executed in response to a specific event or condition, such as inserting, updating, or deleting data from a table. 
+
+Ex:::DELIMITER $$
+	CREATE TRIGGER `TRIGGER_NAME` (AFTER | BEFORE) {INSERT | UPDATE | DELETE} ON `table_name` FOR EACH ROW 
+    	
+	BEGIN
+    
+    	INSERT into `table_name` SET `column_name = new.column_name | old.column_name;
+    	
+    	END$$
