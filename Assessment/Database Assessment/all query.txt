@@ -1,0 +1,57 @@
+CREATE TABLE bank
+(
+	b_id int PRIMARY KEY ,
+    	b_name varchar(30),
+    	b_city varchar(30)
+);
+INSERT INTO `bank`
+(`b_id`,`b_name`,`b_city`) VALUES
+('1','kirtan','surat'),
+('2','jay','amreli')
+
+CREATE TABLE loan
+(
+	l_no int PRIMARY KEY,
+    	b_id int,
+    	account_holder_id int,
+    	l_amount decimal(10,2),
+    	l_type varchar(30),
+   	 FOREIGN KEY (b_id) REFERENCES bank(b_id)
+);
+INSERT INTO `loan` VALUES
+('123','1','a1','50000','home loan'),
+('456','2','a2','40000','car loan')
+
+CREATE TABLE AccountHolder 
+(
+    account_holder_id INT PRIMARY KEY,
+    account_no INT,
+    account_holder_name VARCHAR(30),
+    city VARCHAR(30),
+    contact VARCHAR(30),
+    date_created DATE,
+    account_status VARCHAR(30),
+    account_type VARCHAR(30),
+    balance DECIMAL(10,2)
+);
+INSERT INTO `accountholder` VALUES
+('1','95102','kirtan','surat','9510232723','20-july-2023','service','saving','100000'),
+('0','81608','jay','amreli','8160852926','21-july-2023','services','saving','50000')
+
+UPDATE AccountHolder
+SET balance = balance - 100
+WHERE account_no = '1';
+
+UPDATE AccountHolder
+SET balance = balance + 100
+WHERE account_no = '0';
+
+
+SELECT * FROM AccountHolder WHERE city = 'surat';
+
+SELECT account_no, account_holder_name FROM AccountHolder WHERE DAY(date_created) > 15;
+
+SELECT b_city AS City, COUNT(*) AS Count_Branch FROM Bank GROUP BY b_city;
+
+SELECT ah.account_holder_id, ah.account_holder_name, l.b_id, l.l_amount FROM AccountHolder AS ah JOIN Loan AS l ON ah.account_holder_id = l.account_holder_id;
+
