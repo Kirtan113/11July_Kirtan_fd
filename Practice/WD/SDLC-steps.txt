@@ -1,0 +1,8 @@
+SDLC - Software Development Life Cycle
+
+1.Planning / requirement gathering 
+2. Analysis
+3. Designing
+4. Implementation
+5. Testing
+6. Maintenance 
