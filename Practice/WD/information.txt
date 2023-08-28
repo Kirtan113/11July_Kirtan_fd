@@ -1,0 +1,16 @@
+stands for the = full form
+hyper text markup language
+html is use to create structure of the webpage
+html file save using '.html'
+website is collection of the web pages
+CSS - cascading style sheet
+css use to style the webpage
+css file save using '.css'
+java script is use to process
+java script file is saved using '.js'
+jQuery is a framework of the java script
+URL - Uniform Resorse Locator
+protocol is set of rule
+https - hyper text transfer protocol secure
+www - world wide web
+www is web server
