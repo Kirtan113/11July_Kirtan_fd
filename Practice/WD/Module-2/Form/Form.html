@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Log-in</legend>
+        <form action="" method="get">
+            <label for="fn">First Name :</label>
+            <input type="text" name="fn" id="" placeholder="Enter your first name...." required>
+            <br><br>
+
+            <label for="ln">Last Name :</label>
+            <input type="text" name="ln" id="lnm" placeholder="Enter your last name....">
+            <br><br>
+
+            <label for="ph">Phone no :</label>
+            <select name="ph" id="" title="country codes">
+                <option value="1">+1</option>
+                <option value="91" selected>+91</option>
+                <option value="93">+93</option>
+                <option value="213">+213</option>
+                <option value="255">+255</option>
+                <option value="672">+672</option>
+            </select>
+            <input type="tel" name="ph" id="" required minlength="10" maxlength="11" pattern="[0-9]{10}">
+            <br><br>
+
+            <label for="mail">Email :</label>
+            <input type="email" name="mail" id="" required>
+            <br><br>
+
+            <label for="dob">Date of birth :</label>
+            <input type="date" name="dob" id="" required>
+            <br><br>
+
+            <label for="gen">Gender :</label>
+            <input type="radio" name="gen" id="">Male
+            <input type="radio" name="gen" id="">Female
+            <input type="radio" name="gen" id="">Other
+            <br><br>
+
+            <label for="stream">Stream :</label>
+            <input type="checkbox" name="stream" id="">Software
+            <input type="checkbox" name="stream" id="">Designing
+            <input type="checkbox" name="stream" id="">AI
+            <br><br>
+
+            <label for="add">Address:</label>
+            <textarea name="add" id="" cols="20" rows="5"></textarea>
+            <br><br>
+
+            <label for="pass">Password :</label>
+            <input type="password" name="pass" id="" required minlength="6" maxlength="8" pattern="[0-9,A-Z,a-z,@]{6,8}">
+            <br><br>
+
+            <label for="cpass">Confirm Password :</label>
+            <input type="password" name="cpass" id="" required>
+            <br><br>
+
+            <input type="submit" name="" id="" value="Log-in" onclick="alert('Your Form is Submitted !!')">
+            <input type="reset" name="" id="">
+            <br><br>
+
+            <button type="button">
+                <a href="Form.html" download="Form.html">Download</a>
+            </button>
+
+            <button type="button">
+                <a href="Form.html" onclick="print()">Print</a>
+            </button>
+        </form>
+    </fieldset>
+</body>
+</html>
