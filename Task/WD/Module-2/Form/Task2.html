@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task2</title>
+</head>
+<body>
+    <br><br>
+        <form action="" method="get">
+            <label for="fn">Name :</label>
+            <input type="text" name="fn" id="" placeholder="Name" required>
+            <br><br>
+
+            <label for="pass">Password :</label>
+            <input type="password" name="pass" id="" required minlength="6" maxlength="8" pattern="[0-9,A-Z,a-z,@]{6,8}" placeholder="Password">
+            <br><br>
+
+            <label for="gen">Gender :</label>
+            <input type="radio" name="gen" id="">Male
+            <input type="radio" name="gen" id="">Female
+            <br><br>
+
+            <label for="mail">Email :</label>
+            <input type="email" name="mail" id="" required placeholder="Email">
+            <br><br>
+
+            <label for="ph">Phone no :</label>
+            <select name="ph" id="" title="country codes">
+                <option value="1">+1</option>
+                <option value="91" selected>+91</option>
+                <option value="93">+93</option>
+                <option value="213">+213</option>
+                <option value="255">+255</option>
+                <option value="672">+672</option>
+            </select>
+            <input type="tel" name="ph" id="" required minlength="10" maxlength="11" pattern="[0-9]{10}" placeholder="Phone No">
+            <br><br>
+
+            <input type="submit" name="" id="" value="Submit" onclick="alert('Your Form is Submitted !!')">   
+            <br><br>
+        </form>
+</body>
+</html>
