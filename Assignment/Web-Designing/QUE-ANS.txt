@@ -1,0 +1,68 @@
+Que : 1 --> Are the HTML tags and elements the same thing? 
+=> NO , html tag & elements are not same thing.
+
+Que : 2 --> What are void elements in HTML? 
+=>
+
+Que : 3 --> What are HTML Entities? 
+=> 
+
+Que : 4 --> What are different types of lists in HTML? 
+=>  orderd list,unorderd list,description list.
+
+Que : 5 --> What is the ‘class’ attribute in HTML? 
+=> 
+
+Que : 6 --> What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML 
+            elements? 
+=>
+
+Que : 7 --> What are the various formatting tags in HTML? 
+=> bold,strong,paragraph,italic,underline,cite,delete,big,small,sub,sup,mark,q,abbr.
+
+Que : 8 --> How is Cell Padding different from Cell Spacing? 
+=>  space between two cell it is cell Spacing and space between border and text it is cell padding.
+
+Que : 9 --> How can we club two or more rows or columns into a single row or column in an HTML 
+            table? 
+=> row-rowspan and column-colspan
+
+Que : 10 --> What is the difference between a block-level element and an inline element? 
+=> inline = only particular word , block-level = complete line
+
+Que : 11 --> How to create a Hyperlink in HTML? 
+=> use anchor tag <a href="">...</a>
+
+Que : 12 --> What is the use of an iframe tag? 
+=> 
+
+Que : 13 --> What is the use of a span tag? Explain with example? 
+=> span tag = inline element, use to give style in particuler line, 
+
+Que : 14 --> How to insert a picture into a background image of a web page? 
+=> <body background = "url of image">
+    </body>
+
+Que : 15 --> How are active links different from normal links? 
+=> active link red color,normal link blue color and normal link on mouse click open link and visite
+
+Que : 16 --> What are the different tags to separate sections of text? 
+=> paragraph tag
+
+Que : 17 --> What is SVG? 
+=> SVG = scalable vector graphics it is one type of graphics,no knowlege for js.
+
+Que : 18 --> What is difference between HTML and XHTML? 
+=> html = full form - hyper text markup language
+          security- less secure
+          browser = all support
+    Xhtml = Extensible hypertext markup language
+            security- more secure than html
+          browser = few support
+
+Que : 19 --> What are logical and physical tags in HTML?
+=>
+
+Que : 20 --> What are tags and attributes in HTML? 
+=> attribute = additional information
+    tags = start and end element pf html.
