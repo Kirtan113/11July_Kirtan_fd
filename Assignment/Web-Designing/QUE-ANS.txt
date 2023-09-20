@@ -2,20 +2,24 @@ Que : 1 --> Are the HTML tags and elements the same thing?
 => NO , html tag & elements are not same thing.
 
 Que : 2 --> What are void elements in HTML? 
-=>
+=> void element = self closing elemment
+=> do not have close tag
+=> ex : img,input,br,hr,link,meta.
 
 Que : 3 --> What are HTML Entities? 
-=> 
+=> &lt - less than , &gt -graater than , &nbsp - space,etc.
 
 Que : 4 --> What are different types of lists in HTML? 
 =>  orderd list,unorderd list,description list.
 
 Que : 5 --> What is the ‘class’ attribute in HTML? 
-=> 
+=> class attribute assign multi value.
+=> class is point in a style.
 
 Que : 6 --> What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML 
             elements? 
-=>
+=> id attribute unique,class attribute multiple element same class name.
+=> id assign single value,class attribute assign multiple value.
 
 Que : 7 --> What are the various formatting tags in HTML? 
 => bold,strong,paragraph,italic,underline,cite,delete,big,small,sub,sup,mark,q,abbr.
@@ -34,7 +38,7 @@ Que : 11 --> How to create a Hyperlink in HTML?
 => use anchor tag <a href="">...</a>
 
 Que : 12 --> What is the use of an iframe tag? 
-=> 
+=> iframe = inline frame.use to iframe we are embeded any map,youtube video,and other external web content in html page. 
 
 Que : 13 --> What is the use of a span tag? Explain with example? 
 => span tag = inline element, use to give style in particuler line, 
@@ -65,4 +69,4 @@ Que : 19 --> What are logical and physical tags in HTML?
 
 Que : 20 --> What are tags and attributes in HTML? 
 => attribute = additional information
-    tags = start and end element pf html.
+    tags = start and end element of html.
