@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sibling Selector</title>
+    <style>
+        h2{
+            text-align: center;
+            color: rgb(4, 36, 36);
+        }
+        h2 + b{
+            border: 2px solid red;
+        }
+        h2 ~ p{
+            border: 3px dotted green;
+        }
+    </style>
+</head>
+<body>
+    <h2>Sibling Selector</h2>
+    <b>There are the two sibling selector.</b>
+    <p>1.Adjacent sibling selector.</p>
+    <p>2.General sibling selector.</p>
+    <p>Adjacent Sibling Selector is select by using the '+'.</p>
+    <p>General Sibling Selector is select by using the '~'.</p>
+    <p>Adjacent sibling selector only select the first child.</p>
+    <p>General sibling selector only select the every child.</p>
+</body>
+</html>

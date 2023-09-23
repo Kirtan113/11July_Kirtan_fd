@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child selector</title>
+    <style>
+        div > section
+        {
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h2>Child Selector</h2>
+    <p>Child Selector is use to select the child.</p> <!-- Child of the body -->
+    <div>
+        <p>We can select the child selector using '>'</p> <!-- Child of the div-->
+        <section>
+            <p>Hello</p> <!-- Sub child of the div-->
+        </section>
+        <p>Descendant selector is select using space' '</p>
+        <p>Using child selector we can only select the child</p>
+        <p>Using descendant selector we can select the child and sub child also.</p>
+    </div>
+</body>
+</html>
